@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tutors - StudyBuddy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="subjects.html">Subjects</a>
+    <a href="tutors.html">Tutors</a>
+    <a href="booking.html">Book a Session</a>
+    <a href="contact.html">Contact</a>
+</nav>
+ <h1>Book a Tutoring Session</h1>
+
+<p>Complete the form below to request a tutoring session.</p>
+
+<form>
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="subject">Choose a Subject:</label><br>
+    <select id="subject" name="subject">
+        <option value="mathematics">Mathematics</option>
+        <option value="accounting">Accounting</option>
+        <option value="programming">Programming</option>
+    </select><br><br>
+
+    <label for="date">Preferred Date:</label><br>
+    <input type="date" id="date" name="date"><br><br>
+
+    <button type="button" onclick="alert('Your tutoring session has been booked successfully!')">Book Session</button>
+
+</form>
+</body>
+
+</html>
