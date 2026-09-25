@@ -32,3 +32,29 @@ The purpose of this website is to provide students with an easy way to find tuto
 Author
 
 Oratile Mohanoe
+
+## Responsive Design Testing
+
+I tested the StudyBuddy website on different screen sizes using browser developer tools.
+
+### Mobile View
+Screenshot showing the website on a mobile screen.
+![Mobile View](Screenshots/mobile.png)
+### Tablet View
+Screenshot showing the website on a tablet screen.
+![Tablet View](Screenshots/tablet.png)
+### Desktop View
+Screenshot showing the website on a desktop screen.
+![Desktop View](Screenshots/desktop.png)
+
+## Part 2 Changelog
+
+- Added an external CSS stylesheet.
+- Added a basic CSS reset.
+- Improved colours, fonts and page spacing.
+- Added hover, focus and active effects.
+- Added Flexbox to the navigation.
+- Added responsive styling for tablet and mobile screens.
+- Made images responsive.
+- Tested the website on mobile, tablet and desktop screen sizes.
+- Added responsive testing screenshots to the README.
