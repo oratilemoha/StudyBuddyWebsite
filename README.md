@@ -58,3 +58,7 @@ Screenshot showing the website on a desktop screen.
 - Made images responsive.
 - Tested the website on mobile, tablet and desktop screen sizes.
 - Added responsive testing screenshots to the README.
+
+## References
+- Start Designs (2026) Best Tutoring Website Design Examples.
+- Dribbble (2026) Tutor Website Designs, Themes and Templates.
