@@ -322,3 +322,30 @@ nav {
     flex-wrap: wrap;
     gap: 10px;
 }
+/* Subjects layout */
+.subject-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.subject-grid li {
+    text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .subject-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .subject-grid {
+        grid-template-columns: 1fr;
+    }
+}
