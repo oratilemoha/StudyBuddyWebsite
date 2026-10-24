@@ -62,3 +62,25 @@ Screenshot showing the website on a desktop screen.
 ## References
 - Start Designs (2026) Best Tutoring Website Design Examples.
 - Dribbble (2026) Tutor Website Designs, Themes and Templates.
+
+## part3 Updates 
+
+For Part 3 I added more features to improve my website.
+
+- I added JavaScript to make the website interactive.
+- I added a search box on the Subjects page.
+- I added validation to the booking form.
+- I added a booking confirmation message.
+- I added validation to the contact form.
+- I added a message confirmation.
+- I added meta descriptions for SEO.
+- I added a robots.txt file.
+- I added a sitemap.xml file.
+
+## Part 3 Changelog
+
+- Added JavaScript features.
+- Added subject search.
+- Improved the booking form.
+- Improved the contact form.
+- Added basic SEO features.
