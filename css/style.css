@@ -349,7 +349,6 @@ nav {
         grid-template-columns: 1fr;
     }
 }
-/* Gallery */
 @media (max-width: 480px) {
     nav {
         display: flex;
@@ -364,6 +363,7 @@ nav {
         margin: 5px 0;
     }
 }
+/* Gallery */
 .gallery {
     text-align: center;
     margin: 30px;
