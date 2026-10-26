@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enquiry - StudyBuddy</title>
+    <meta name="description" content="Send an enquiry to StudyBuddy about tutoring services.">
+    <meta name="keywords" content="StudyBuddy, enquiry, tutoring enquiry, student support">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="subjects.html">Subjects</a>
+        <a href="tutors.html">Tutors</a>
+        <a href="booking.html">Book a Session</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <h1>StudyBuddy Enquiry</h1>
+
+    <p>Complete the form below if you would like to ask about our tutoring services.</p>
+
+    <form id="enquiryForm">
+
+        <label for="enquiryName">Full Name:</label><br>
+        <input type="text" id="enquiryName" required minlength="3"><br><br>
+
+        <label for="enquiryEmail">Email Address:</label><br>
+        <input type="email" id="enquiryEmail" required><br><br>
+
+        <label for="enquirySubject">Subject:</label><br>
+        <select id="enquirySubject" required>
+            <option value="">Select a subject</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Accounting">Accounting</option>
+            <option value="Programming">Programming</option>
+        </select><br><br>
+
+        <label for="enquiryMessage">Enquiry:</label><br>
+        <textarea id="enquiryMessage" rows="5" required minlength="10"></textarea><br><br>
+
+        <button type="submit">Send Enquiry</button>
+
+    </form>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

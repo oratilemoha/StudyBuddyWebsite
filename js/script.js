@@ -45,3 +45,32 @@ if (contactForm) {
         alert("Thank you! Your message has been sent.");
     };
 }
+
+var galleryImage = document.querySelector(".gallery-image");
+var lightbox = document.getElementById("lightbox");
+var lightboxImage = document.getElementById("lightboxImage");
+var closeLightbox = document.getElementById("closeLightbox");
+
+if (galleryImage) {
+
+    galleryImage.onclick = function () {
+        lightbox.style.display = "block";
+        lightboxImage.src = galleryImage.src;
+    };
+
+    closeLightbox.onclick = function () {
+        lightbox.style.display = "none";
+    };
+}
+var enquiryForm = document.getElementById("enquiryForm");
+
+if (enquiryForm) {
+
+    enquiryForm.onsubmit = function (event) {
+        event.preventDefault();
+
+        var subject = document.getElementById("enquirySubject").value;
+
+        alert("Thank you for your enquiry about " + subject + ". We will contact you soon.");
+    };
+}

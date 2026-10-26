@@ -64,7 +64,6 @@ Screenshot showing the website on a desktop screen.
 - Dribbble (2026) Tutor Website Designs, Themes and Templates.
 
 ## part3 Updates 
-
 For Part 3 I added more features to improve my website.
 
 - I added JavaScript to make the website interactive.
@@ -76,11 +75,39 @@ For Part 3 I added more features to improve my website.
 - I added meta descriptions for SEO.
 - I added a robots.txt file.
 - I added a sitemap.xml file.
+- I added an interactive map to the Contact page.
+- I added a Gallery page with a lightbox feature.
+- I added an Enquiry page with form validation and a confirmation message.
+- I added Enquiry and Gallery links to the website navigation.
+- I added meta keywords to all main pages.
 
 ## Part 3 Changelog
-
 - Added JavaScript features.
 - Added subject search.
 - Improved the booking form.
 - Improved the contact form.
 - Added basic SEO features.
+- Added an interactive map.
+- Added a gallery lightbox.
+- Added an enquiry form.
+- Updated the navigation menu.
+- Added meta keywords for SEO.
+
+## Feedback from Part 2
+
+The feedback from Part 2 was positive. I was advised to improve form validation and make sure image alt text stays descriptive.
+
+For Part 3 I made the following improvements:
+
+- I added required fields to the booking form.
+- I added required fields to the contact form.
+- I added confirmation messages after the forms are completed.
+- I kept descriptive alt text on images.
+
+## References
+
+- MDN Web Docs (2026) JavaScript Guide.
+- MDN Web Docs (2026) HTML Forms and Validation.
+- Google Maps (2026) Maps Embed.
+- Google Search Central (2026) SEO Starter Guide.
+- Sitemaps.org (2026) Sitemap Protocol.
